@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_day"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="mon"
+            android:textSize="9dp" />
+
+        <Button
+            android:id="@+id/btn_subject1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onSubjectClick"
+            android:text="Subject 1"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btn_subject2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onSubjectClick"
+            android:text="Subject 2"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btn_subject3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onSubjectClick"
+            android:text="Subject 3"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btn_subject4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onSubjectClick"
+            android:text="Subject 4"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btn_subject5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onSubjectClick"
+            android:text="Subject 5"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btn_subject6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="onSubjectClick"
+            android:text="Subject 6"
+            android:textSize="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
